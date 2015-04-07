@@ -1,0 +1,17 @@
+#sp_product_form .add-coupon,
+#sp_product_form .del-coupon {
+	margin-left: 1em;
+	font-size: 85%;
+}
+
+#sp_product_form #coupons .coupon .del-coupon {
+	display: none;
+}
+
+#sp_product_form #coupons .coupon + .more .del-coupon {
+	display: inline;
+}
+
+#sp_product_form #coupons .coupon + .more .add-coupon {
+	display: none;
+}
